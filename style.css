@@ -1,0 +1,108 @@
+body{
+    text-align: center;
+    width: 1500px;
+    height: 900px;
+    
+    color: white;
+}
+.page-header{
+    text-align: center;
+    margin: 20px;
+    font-size: 70px;
+    padding: 0px;
+}   
+.pic1{
+    margin-top: 40px;
+} 
+.title{
+    font-size: 35px;
+    
+}
+.leftside{
+    width: 630px;
+    text-align: center;
+    float: left;
+    background-image: linear-gradient(150deg, #000000, rgb(47, 47, 47), rgb(0, 0, 0));
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+    border: 2px solid rgb(255, 255, 255);
+    height: 1100px;
+    
+    
+}
+.item{
+    border: 3px solid rgba(255, 255, 255, 0.816);
+    width: 150px;
+    height: 150px;
+}
+.item-name{
+    font-size: 15px;
+}
+.item-price{
+    font-size: 15px;
+}
+.specialitems{
+    display: flex;
+}
+.rightside{
+    width: 680px;
+    font-size: large;
+    background-image: linear-gradient(150deg, #000000, rgb(47, 47, 47), rgb(0, 0, 0));
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 30px;
+    float: right;
+    border: 2px solid rgb(255, 255, 255);
+    height: 1100px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.left-table{
+    float: left;
+    margin-left: 20px;
+
+}
+.right-table{
+    margin-right: 20px;
+    float: right;
+}
+legend{
+    font-size: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: 2px solid rgb(187, 142, 142);
+    text-align: center;
+}
+
+.footer-link {
+    color: rgb(112, 211, 226);
+    
+}
+.footer-link:hover { color: #0e396a; }
+.burgers{
+    float: left;
+}
+.deserts{
+    float: right;
+}
+.section1{
+    color: rgb(240, 209, 170);
+}
+.section-header{
+    color: chocolate;
+}
+.talktous{
+    color: chocolate;
+    font-size:15px;
+}
+.copyright{
+    font-size: 13px;
+    color: rgb(235, 151, 186);
+    text-decoration: none;
+}
+.email-link {
+    color: #738ff3;
+    font-weight: 600;
+}
+a { transition: all 0.3s ease; }
+.email-link:hover { color: #f39069; }
